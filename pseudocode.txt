@@ -1,0 +1,33 @@
+Open the "revenue_ext_v2.txt" file for reading
+If the file cannot be opened, display an error message and exit
+
+Initialize an empty map called "storeRevenue"
+Initialize a variable "totalRevenue" to 0
+
+While there are more lines in the file:
+    Read the store and revenue from the current line
+    If the store is not already in the "storeRevenue" map:
+        Set the revenue for the store to 0
+    Add the revenue to the existing revenue for the store
+    Add the revenue to the total revenue
+
+Close the file
+
+Display the header for the sales information
+Display a separator line
+
+For each store and revenue pair in the "storeRevenue" map:
+    Display the store name and revenue, properly aligned
+
+Display a separator line
+Display the total revenue
+
+Initialize variables "largestStore" and "largestRevenue" with the first store and revenue pair in the "storeRevenue" map
+
+For each store and revenue pair in the "storeRevenue" map:
+    If the current revenue is larger than the largest revenue:
+        Update the largest store and largest revenue
+
+Display the store with the largest sales revenue
+
+Exit the program
